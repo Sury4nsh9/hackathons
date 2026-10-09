@@ -14,7 +14,7 @@
 ## 2. Tech Stack & Architecture
 * **Frontend Framework:** Next.js (App Router, React Hooks, Client Components).
 * **Styling:** Tailwind CSS (Dark Mode Glassmorphism UI).
-* **AI Engine:** Google Gemini REST API (`gemini-2.5-flash`).
+* **AI Engine:** Google Gemini REST API (`gemini-3.5-flash`).
 * **Architecture:** 100% Serverless & Client-Side. No backend database or server storage is used, satisfying privacy-first requirements by sending requests directly from the client browser to the Gemini API and parsing responses instantly.
 
 ---
@@ -56,7 +56,7 @@
 ### Error 3: API Model Not Found (`gemini-1.5-flash`)
 * **Error:** `models/gemini-1.5-flash is not found for API version v1beta`.
 * **Prompt/Instruction:** "Fix model not found error for Gemini API endpoint."
-* **Solution:** Updated the endpoint model path from `gemini-1.5-flash` to `gemini-3.8-flash`.
+* **Solution:** Updated the endpoint model path from `gemini-1.5-flash` to `gemini-3.5-flash`.
 
 ---
 
